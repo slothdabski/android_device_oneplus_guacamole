@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootleggers.maintainer=slothdabski
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7Pro/OnePlus7Pro:10/QKQ1.190716.003/1909110008:user/release-keys"
+BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7Pro \
     PRODUCT_NAME=OnePlus7Pro \
