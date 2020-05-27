@@ -48,3 +48,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
+REMOVE_GAPPS_PACKAGES := NexusLauncherRelease
