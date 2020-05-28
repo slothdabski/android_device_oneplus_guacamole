@@ -49,4 +49,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
-REMOVE_GAPPS_PACKAGES := NexusLauncherRelease
+REMOVE_GAPPS_PACKAGES += \
+    GoogleCamera \
+    NexusLauncherRelease
